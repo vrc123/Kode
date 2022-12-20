@@ -1,0 +1,11 @@
+.genreComponent {
+    margin: 10px 10px 0 0;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.18px;
+    color: #353A5D;
+    background-color: #00000014;
+}

@@ -1,0 +1,22 @@
+.profileChangeNewsletterSettingsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.checkbox input[type=checkbox] {
+    margin-bottom: 0;
+}
+
+.checkbox p {
+    margin: 0 0 0 15px;
+}
+
+.profileChangeNewsletterSettingsForm button {
+    margin-top: 15px;
+}

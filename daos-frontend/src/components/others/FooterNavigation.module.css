@@ -1,0 +1,40 @@
+.footerNavigation {
+    display: flex;
+    flex-direction: column;
+    margin-right: -30px;
+}
+
+.footerNavigation nav {
+    margin: 30px 0;
+}
+
+.footerNavigation nav a {
+    margin-right: 30px;
+}
+
+.footerNavigation nav a label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footerNavigation div a {
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 430px) {   
+    
+    .footerNavigation {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    
+    .footerNavigation nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerNavigation nav a {
+        margin: 0 0 12px 0;
+    }
+}

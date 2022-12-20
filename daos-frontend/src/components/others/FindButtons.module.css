@@ -1,0 +1,26 @@
+.findButtons {
+    display: flex;
+    width: 100% !important;
+}
+
+.findButtons a {
+    width: calc(50% - 10px);
+}
+
+.findButtons a button {
+    width: 100%;
+}
+
+.findButtons span {
+    margin: 6px 10px;
+}
+
+@media screen and (max-width: 430px) { 
+    .findButtons a {
+        width: 100%;
+    }
+
+    .findButtons a button {
+        margin: 0 !important;
+    }
+}

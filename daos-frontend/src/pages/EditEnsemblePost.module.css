@@ -1,0 +1,32 @@
+.editEnsemblePost {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.editEnsemblePost div {
+    width: 400px;
+}
+
+.editEnsemblePost div a button {
+    margin-bottom: 25px;
+}
+
+.editEnsemblePost div h1 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 430px) {   
+    .editEnsemblePost {
+        padding: 60px 15px;
+    }
+    
+    .editEnsemblePost div {
+        width: 100%;
+    }
+    
+    .editEnsemblePost div h1 {
+        margin-bottom: 25px;
+    }
+}

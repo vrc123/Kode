@@ -1,0 +1,21 @@
+.ensemblesDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px 100px;
+    background-color: #F9F9F9;
+}
+
+.ensemblesDisplay button {
+    width: 400px;
+}
+
+@media screen and (max-width: 428px) {
+    .ensemblesDisplay {
+        padding: 20px 15px;
+    }
+
+    .ensemblesDisplay button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,29 @@
+.ensembleBasicInfo {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 4px #00000014;
+    background-color: #FFFFFF;
+}
+
+.ensembleBasicInfo p {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #DDDDDD;
+    word-break: break-all;
+}
+
+.ensembleBasicInfo span {
+    height: 45px;
+}
+
+@media screen and (max-width: 430px) {   
+    .ensembleBasicInfo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

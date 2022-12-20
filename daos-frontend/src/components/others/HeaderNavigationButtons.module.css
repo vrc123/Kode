@@ -1,0 +1,37 @@
+.headerNavigationButtons {
+    margin: 0 !important;
+}
+
+.headerNavigationButtons div {
+    margin: 0;
+}
+
+.headerNavigationButtons div a {
+    margin: 0;
+}
+
+.headerNavigationButtons div span {
+    margin: 6px 10px;
+}
+
+@media screen and (max-width: 430px) {
+    .headerNavigationButtons {
+        width: 100%;
+    }
+    
+    .headerNavigationButtons div {
+        width: 100%;
+    }
+    
+    .headerNavigationButtons div a {
+        width: 100%;
+    }
+
+    .headerNavigationButtons div a button {
+        width: 100%;
+    }
+
+    .headerNavigationButtons button {
+        width: 100%;
+    }
+}

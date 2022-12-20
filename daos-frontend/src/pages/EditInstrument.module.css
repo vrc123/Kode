@@ -1,0 +1,32 @@
+.editInstrument {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.editInstrument div {
+    width: 400px;
+}
+
+.editInstrument div a button {
+    margin-bottom: 25px;
+}
+
+.editInstrument div h1 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 430px) {   
+    .editInstrument {
+        padding: 60px 15px;
+    }
+    
+    .editInstrument div {
+        width: 100%;
+    }
+    
+    .editInstrument div h1 {
+        margin-bottom: 10px;
+    }
+}

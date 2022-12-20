@@ -1,0 +1,12 @@
+.footerBottom {
+    display: flex;
+    justify-content: center;
+}
+
+.footerBottom a {
+    text-decoration: none;
+}
+
+.footerBottom a p {
+    margin-top: 25px;
+}

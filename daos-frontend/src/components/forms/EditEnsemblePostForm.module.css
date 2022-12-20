@@ -1,0 +1,24 @@
+.editEnsemblePostForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.editEnsemblePostForm input {
+    margin-bottom: 15px;
+}
+
+.editEnsemblePostForm label {
+    margin: 15px 0;
+}
+
+.editEnsemblePostForm textarea {
+    margin-bottom: 15px;
+}
+
+.editEnsemblePostForm select {
+    margin-bottom: 15px;
+}
+
+.editEnsemblePostForm button {
+    margin-top: 15px;
+}

@@ -1,0 +1,25 @@
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 75px 100px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.postInfo div h1 {
+    word-break: break-all;
+}
+
+@media screen and (max-width: 430px) {   
+    .postInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 15px;
+    }
+
+    .postInfo div h1 {
+        width: 100%;
+        word-break: break-all;
+    }
+}

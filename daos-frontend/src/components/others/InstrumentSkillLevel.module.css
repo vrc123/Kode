@@ -1,0 +1,10 @@
+.instrumentSkillLevel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #353A5D;
+}

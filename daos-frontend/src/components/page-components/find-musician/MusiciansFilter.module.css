@@ -1,0 +1,18 @@
+.musiciansFilter {
+    padding: 75px 100px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.musiciansFilter h1 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) {   
+    .musiciansFilter {
+        padding: 20px 15px;
+    }
+
+    .musiciansFilter h1 {
+        margin-bottom: 12px;
+    }
+}

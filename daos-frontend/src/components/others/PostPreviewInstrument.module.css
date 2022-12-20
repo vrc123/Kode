@@ -1,0 +1,10 @@
+.postPreviewInstrument {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postPreviewInstrument div {
+    display: flex;
+    align-items: center;
+}

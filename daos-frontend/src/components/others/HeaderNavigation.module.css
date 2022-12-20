@@ -1,0 +1,29 @@
+.headerNavigation {
+    display: flex;
+    align-items: center;
+}
+
+.headerNavigation div a {
+    margin-right: 30px;
+}
+
+.headerNavigation div a label:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 430px) {
+    .headerNavigation {
+        flex-direction: column;
+    }
+
+    .headerNavigation div {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 0 20px 0;
+    }
+
+    .headerNavigation div a {
+        margin: 0 0 12px 0;
+    }
+}

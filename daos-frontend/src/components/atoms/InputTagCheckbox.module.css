@@ -1,0 +1,19 @@
+.inputDefaultTagCheckbox {
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px #00000014;
+}
+
+.inputDefaultTagCheckbox:hover {
+    cursor: pointer;
+}
+
+.inputDefaultTagCheckbox:checked {
+    background-image: url(../../img/checkbox-checked.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #353A5D;
+}

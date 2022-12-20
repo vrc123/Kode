@@ -1,0 +1,24 @@
+.addEnsemblePostForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.addEnsemblePostForm input {
+    margin-bottom: 15px;
+}
+
+.addEnsemblePostForm label {
+    margin: 15px 0;
+}
+
+.addEnsemblePostForm textarea {
+    margin-bottom: 15px;
+}
+
+.addEnsemblePostForm select {
+    margin-bottom: 15px;
+}
+
+.addEnsemblePostForm button {
+    margin-top: 15px;
+}

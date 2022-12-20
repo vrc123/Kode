@@ -1,0 +1,16 @@
+.addInstrumentForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.addInstrumentForm select {
+    margin-bottom: 15px;
+}
+
+.addInstrumentForm label {
+    margin: 15px 0;
+}
+
+.addInstrumentForm button {
+    margin-top: 15px;
+}

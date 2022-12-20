@@ -1,0 +1,18 @@
+.ensemblesFilter {
+    padding: 75px 100px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.ensemblesFilter h1 {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) {   
+    .ensemblesFilter {
+        padding: 20px 15px;
+    }
+
+    .ensemblesFilter h1 {
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,22 @@
+.ensembleContactPersonInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    background-color: #F9F9F9;
+    box-shadow: 0px 2px 4px #00000014;
+}
+
+.ensembleContactPersonInfo div h3 {
+    word-break: break-all;
+}
+
+.ensembleContactPersonInfo div label {
+    border-bottom: none;
+}
+
+.ensembleContactPersonInfo a button {
+    width: 100%;
+    margin-top: 15px;
+}

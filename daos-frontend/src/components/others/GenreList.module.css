@@ -1,0 +1,7 @@
+.genreList {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    margin-top: 15px;
+    border-top: 1px solid #DDDDDD;
+}

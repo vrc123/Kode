@@ -1,0 +1,36 @@
+.musicianInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 100px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.musicianInfo div {
+    display: flex;
+    flex-direction: column;
+}
+
+.musicianInfo div h1 {
+    margin-bottom: 20px;
+    word-break: break-all;
+}
+
+.musicianInfo div label {
+    word-break: break-all;
+    width: fit-content;
+}
+
+@media screen and (max-width: 430px) {   
+    .musicianInfo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 15px;
+    }
+
+    .musicianInfo div h1 {
+        width: 100%;
+        margin-bottom: 12px;
+        word-break: break-all;
+    }
+}

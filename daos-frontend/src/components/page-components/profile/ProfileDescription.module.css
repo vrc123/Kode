@@ -1,0 +1,29 @@
+.profileDescription {
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 4px #00000014;
+    background-color: #FFFFFF;
+}
+
+.profileDescription div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profileDescription p {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #DDDDDD;
+    word-break: break-all;
+}
+
+@media screen and (max-width: 430px) {   
+    .profileDescription {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

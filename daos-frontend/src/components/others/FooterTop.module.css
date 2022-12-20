@@ -1,0 +1,20 @@
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerTop a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 430px) {   
+
+    .footerTop {
+        flex-direction: column;
+    }
+
+    .footerTop a {
+        width: 100%;
+    }
+}

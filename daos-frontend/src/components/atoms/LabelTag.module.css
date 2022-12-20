@@ -1,0 +1,36 @@
+.labelDefaultTag {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.normal {
+    font-size: 16px;
+    letter-spacing: 0.24px;
+}
+
+.small {
+    font-size: 12px;
+    letter-spacing: 0.18px;
+}
+
+.blue {
+    color: #353A5D;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.grey {
+    color: #777777;
+}
+
+.red {
+    color: #BF1E2E;
+}
+
+.status {
+    padding: 5px 15px;
+    border-radius: 4px;
+    background-color: #00000014;
+}

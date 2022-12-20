@@ -1,0 +1,32 @@
+.editProfile {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.editProfile div {
+    width: 400px;
+}
+
+.editProfile div a button {
+    margin-bottom: 25px;
+}
+
+.editProfile div h1 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 430px) {
+    .editProfile {
+        padding: 60px 15px;
+    }
+
+    .editProfile div {
+        width: 100%;
+    }
+
+    .editProfile div h1 {
+        margin-bottom: 10px;
+    }
+}

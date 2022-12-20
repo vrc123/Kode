@@ -1,0 +1,36 @@
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.login div {
+    width: 400px;
+}
+
+.login div h1 {
+    margin-bottom: 30px;
+}
+
+.login div a {
+    color: #777777;
+}
+
+.login div a p {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 430px) {
+    .login {
+        padding: 60px 15px;
+    }
+
+    .login div {
+        width: 100%;
+    }
+
+    .login div h1 {
+        margin-bottom: 25px;
+    }
+}

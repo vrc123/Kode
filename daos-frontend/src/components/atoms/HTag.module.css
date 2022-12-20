@@ -1,0 +1,48 @@
+.hDefaultTag {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.h1Tag {
+    font-size: 50px;
+    letter-spacing: 0.75px;
+}
+
+.h2Tag {
+    font-size: 38px;
+    letter-spacing: 0.57px;
+}
+
+.h3Tag {
+    font-size: 26px;
+    letter-spacing: 0.39px;
+}
+
+.red {
+    color: #BF1E2E;
+}
+
+.blue {
+    color: #353A5D;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 430px) {    
+    .h1Tag {
+        font-size: 30px;
+        letter-spacing: 0.45px;
+    }
+    
+    .h2Tag {
+        font-size: 30px;
+        letter-spacing: 0.45px;
+    }
+    
+    .h3Tag {
+        font-size: 20px;
+        letter-spacing: 0.3px;
+    }
+}

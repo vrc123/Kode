@@ -1,0 +1,13 @@
+.nameInputs {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.nameInputs input {
+    width: calc(50% - 5px);
+    margin-bottom: 0 !important;
+}
+
+.nameInputs span {
+    margin: 0 5px;
+}

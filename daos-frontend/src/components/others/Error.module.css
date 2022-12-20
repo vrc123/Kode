@@ -1,0 +1,17 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+}
+
+.error h2 {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 430px) {
+    .error {
+        margin: 25% 0;
+    }
+}

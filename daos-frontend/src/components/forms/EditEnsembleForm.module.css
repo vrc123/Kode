@@ -1,0 +1,37 @@
+.editEnsembleForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.editEnsembleForm input {
+    margin-bottom: 15px;
+}
+.editEnsembleForm label {
+    margin: 15px 0;
+}
+
+.editEnsembleForm textarea {
+    margin-bottom: 15px;
+}
+
+.editEnsembleForm select {
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox input[type=checkbox] {
+    margin-bottom: 0;
+}
+
+.checkbox p {
+    margin: 0 0 0 15px;
+}
+
+.editEnsembleForm button {
+    margin-top: 15px;
+}

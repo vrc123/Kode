@@ -1,0 +1,22 @@
+.postPreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 4px #00000014;
+    background-color: #F9F9F9;
+}
+
+.postPreview p {
+    margin: 15px 0;
+    padding: 15px 0;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.postPreview a button {
+    width: 100%;
+}

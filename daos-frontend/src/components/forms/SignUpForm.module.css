@@ -1,0 +1,49 @@
+.signUpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpForm input {
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.checkbox input[type=checkbox] {
+    margin-bottom: 0;
+}
+
+.checkbox p {
+    margin-left: 15px;
+}
+
+.checkbox .pCustom {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.21px;
+    color: #777777;
+}
+
+.checkbox .pCustom a {
+    color: #777777;
+}
+
+.signUpForm button {
+    margin-top: 15px;
+}
+
+/*
+
+.signUpForm div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 0;
+}
+
+*/

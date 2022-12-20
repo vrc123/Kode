@@ -1,0 +1,18 @@
+.ensemblePreview {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 4px #00000014;
+    background-color: #FFFFFF;
+}
+
+@media screen and (max-width: 430px) {
+    .ensemblePreview {
+        width: 100%;
+    }
+}

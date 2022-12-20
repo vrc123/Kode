@@ -1,0 +1,8 @@
+.territoryInputs {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.territoryInputs span {
+    margin: 0 5px;
+}

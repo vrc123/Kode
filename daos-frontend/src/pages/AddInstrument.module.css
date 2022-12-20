@@ -1,0 +1,32 @@
+.addInstrument {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.addInstrument div {
+    width: 400px;
+}
+
+.addInstrument div a button {
+    margin-bottom: 25px;
+}
+
+.addInstrument div h1 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 430px) {
+    .addInstrument {
+        padding: 60px 15px;
+    }
+
+    .addInstrument div {
+        width: 100%;
+    }
+
+    .addInstrument div h1 {
+        margin-bottom: 25px;
+    }
+}

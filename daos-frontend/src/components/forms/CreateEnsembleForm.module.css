@@ -1,0 +1,38 @@
+.createEnsembleForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.createEnsembleForm input {
+    margin-bottom: 15px;
+}
+
+.createEnsembleForm label {
+    margin: 15px 0;
+}
+
+.createEnsembleForm textarea {
+    margin-bottom: 15px;
+}
+
+.createEnsembleForm select {
+    margin-bottom: 15px;
+}
+
+.checbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checbox input[type=checkbox] {
+    margin-bottom: 0;
+}
+
+.checbox p {
+    margin-left: 15px;
+}
+
+.createEnsembleForm button {
+    margin-top: 15px;
+}

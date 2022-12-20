@@ -1,0 +1,22 @@
+.musicianContactButtons {
+    display: flex;
+    flex-direction: row !important;
+    margin-left: 100px;
+}
+
+.musicianContactButtons span {
+    margin: 6px 10px;
+}
+
+@media screen and (max-width: 430px) { 
+    .musicianContactButtons {
+        display: flex;
+        flex-direction: column !important;
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+
+    .musicianContactButtons a button {
+        width: 100%;
+    }
+}

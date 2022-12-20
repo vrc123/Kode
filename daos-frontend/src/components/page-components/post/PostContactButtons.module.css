@@ -1,0 +1,21 @@
+.postContactButtons {
+    display: flex;
+    margin-left: 100px;
+}
+
+.postContactButtons span {
+    margin: 6px 10px;
+}
+
+@media screen and (max-width: 430px) { 
+    .postContactButtons {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+
+    .postContactButtons a button {
+        width: 100%;
+    }
+}

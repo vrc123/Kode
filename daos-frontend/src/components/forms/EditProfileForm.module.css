@@ -1,0 +1,38 @@
+.editProfileForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.editProfileForm label {
+    margin: 15px 0;
+}
+
+.editProfileForm textarea {
+    margin-bottom: 15px;
+}
+
+.editProfileForm p {
+    margin-bottom: 15px;
+}
+
+.editProfileForm input {
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.checkbox input[type=checkbox] {
+    margin-bottom: 0;
+}
+
+.checkbox p {
+    margin: 0 0 0 15px;
+}
+
+.editProfileForm button {
+    margin-top: 15px;
+}

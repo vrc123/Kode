@@ -1,0 +1,28 @@
+.signUp {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.signUp div {
+    width: 400px;
+}
+
+.signUp div h1 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 430px) {
+    .signUp {
+        padding: 60px 15px;
+    }
+
+    .signUp div {
+        width: 100%;
+    }
+
+    .signUp div h1 {
+        margin-bottom: 25px;
+    }
+}

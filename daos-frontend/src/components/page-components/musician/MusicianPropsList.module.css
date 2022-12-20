@@ -1,0 +1,14 @@
+.musicianPropsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 75px 100px;
+    background-color: #F9F9F9;
+}
+
+@media screen and (max-width: 430px) {   
+    .musicianPropsList {
+        flex-direction: column;
+        padding: 20px 15px;
+    }
+}

@@ -1,0 +1,32 @@
+.createEnsemble {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0;
+    background-color: #F9F9F9;
+}
+
+.createEnsemble div {
+    width: 400px;
+}
+
+.createEnsemble div a button {
+    margin-bottom: 25px;
+}
+
+.createEnsemble div h1 {
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 430px) {
+    .createEnsemble {
+        padding: 60px 15px;
+    }
+
+    .createEnsemble div {
+        width: 100%;
+    }
+
+    .createEnsemble div h1 {
+        margin-bottom: 25px;
+    }
+}

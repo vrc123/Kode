@@ -1,0 +1,33 @@
+.profileEnsembleInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 2px 4px #00000014;
+    background-color: #F9F9F9;
+}
+
+.profileEnsembleInfoHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px -15px 15px -15px;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 1px solid #DDDDDD; 
+}
+
+.profileEnsembleInfoHeader a button {
+    margin: 0 !important; 
+}
+
+.profileEnsembleInfo div h3 {
+    word-break: break-all;
+}
+
+.profileEnsembleInfo a button {
+    width: 100%;
+    margin-top: 15px;
+}
